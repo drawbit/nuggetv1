@@ -1,0 +1,33 @@
+.loginPage {
+  input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  form {
+    margin: 30px 0;
+     :global(.btn) {
+      margin-left: 0px;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.toggleText {
+    display: inline;
+    padding-left: 15px;
+    span {
+      color: #00b9f5;
+      cursor: pointer;
+    }
+}
+
+.feedback{
+  color: #FF4136;
+  padding-top: 10px;
+}
+
+.green {
+  color: #2ECC40;
+  padding-top: 10px;
+}

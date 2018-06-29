@@ -1,0 +1,35 @@
+.home {
+  input {
+    padding: 5px 10px;
+    border-radius: 5px !important;
+    border: 1px solid #ccc;
+  }
+  form {
+    margin: 30px 0;
+    :global(.btn) {
+      margin-left: 0px;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.toggleText {
+  display: inline;
+  padding-left: 15px;
+  span {
+    color: #00b9f5;
+    cursor: pointer;
+  }
+}
+
+.bufferHeight{
+  height: 40px;
+}
+
+input[type=text], input[type=date], input[type=password], input[type=email], input[type=datetime-local], textarea, select {
+  border-radius:5px !important;
+}
+
+.custom-modal {
+  width:100% !important;
+}

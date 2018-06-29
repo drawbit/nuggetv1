@@ -1,0 +1,37 @@
+.createTest {
+  input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  form {
+    margin: 30px 0;
+    :global(.btn) {
+      margin-left: 10px;
+    }
+  }
+}
+
+.cardDelete {
+  position: absolute;
+}
+
+.cardButton {
+  margin: 10px;
+}
+
+.saveTest {
+  position: relative;
+  top: 43px;
+  right: -100px;
+}
+
+.cardsContainer{
+  margin-bottom: 10px;
+}
+
+.cardType{
+  margin-top: 10px;
+  position: relative;
+  left: -18px;
+}
